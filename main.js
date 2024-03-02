@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var avlTree_1 = require("./avlTree");
+var node1 = new avlTree_1.default();
+node1.insert(25);
+node1.insert(75);
+node1.insert(55);
+node1.insert(85);
+node1.insert(35);
+node1.insert(50);
+node1.inOrderTraversal(node1.root);
+node1.nodeCount();
